@@ -1,0 +1,15 @@
+{
+    "scripts": {
+        "test": "yarn run lint-python && yarn run test-python",
+        "test-python": "python3 -m unittest discover tests",
+        "lint-python": "flake8 src tests && black --check --line-length 79 src tests",
+        "format-python": "black --line-length 79 src tests",
+        "start": "python3 ./src/app.py"
+    },
+    "keywords": [
+        "ua"
+    ],
+    "author": "Canonical webteam",
+    "license": "LGPL v3",
+    "dependencies": {}
+}
