@@ -1,5 +1,7 @@
 # UA QA Tool
 
+UA QA is an interface for the `ua-contracts` CLI. Use UA QA to create and attach accounts with renewals or offers to your user.
+
 ## How to install?
 
 `ua-contracts` is a private repo. So in order to fetch the binary, tool will use try to make use of your github ssh key to clone the repo. 
